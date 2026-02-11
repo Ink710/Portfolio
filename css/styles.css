@@ -177,7 +177,7 @@ nav {
 .card {
   flex: 1 1 280px;
   max-width: 320px;
-  background: white;
+  background: var(--card-bg, white);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 20px;

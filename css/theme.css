@@ -1,0 +1,20 @@
+
+/* Light Theme (default) */
+:root {
+  --primary-blue: #3498db;
+  --primary-green: #2ecc71;
+  --text-dark: #333;
+  --bg-light: #f4f4f4;
+  --card-bg: #fff;
+  --nav-gradient: linear-gradient(to right, var(--primary-blue), var(--primary-green));
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --primary-blue: #9b59b6;
+  --primary-green: #e67e22;
+  --text-dark: #f4f4f4;
+  --bg-light: #121212;
+  --card-bg: #1e1e1e;
+  --nav-gradient: linear-gradient(to right, var(--primary-blue), var(--primary-green));
+}
